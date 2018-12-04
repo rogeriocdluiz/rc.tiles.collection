@@ -3,5 +3,6 @@
   <layer
       name="rc.tiles.collection"
       interface="rc.tiles.collection.interfaces.IRcTilesCollectionLayer"
+      
       />
 </layers>

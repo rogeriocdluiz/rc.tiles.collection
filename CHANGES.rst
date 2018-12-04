@@ -3,6 +3,13 @@ Changelog
 
 1.1.3 (2018-11-04)
 ------------------
+- adjusts in interfaces
+  [rogeriocdluiz]
+
+
+1.1.3 (2018-11-04)
+------------------
+
   [rogeriocdluiz]
 
 

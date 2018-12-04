@@ -10,8 +10,6 @@ from plone.autoform import directives
 from plone.app.z3cform.widget import RelatedItemsWidget
 
 
-
-
 class CatalogSource(CatalogSourceBase):
     """
     Collection tile specific catalog source to allow targeted widget.
@@ -29,8 +27,6 @@ class ICollectionTileRenderer(Interface):
 
 class IRcTilesCollectionLayer(IDefaultBrowserLayer):
     """Marker interface that defines a browser layer.""" 
-
-
 
 
 class ICollectionTileData(model.Schema):

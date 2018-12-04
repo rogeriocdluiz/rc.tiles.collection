@@ -12,10 +12,27 @@
       />
 
   <!-- Publish static files -->
-  <plone:static
+  <browser:resourceDirectory
       name="rc.tiles.collection"
-      type="plone"
       directory="static"
-      />
+      />      
+      
+  <browser:page
+    name="base_tile_collection_renderer"
+    permission="zope2.View"
+    for="*"
+    class=".base_view.BaseView"
+    layer="..interfaces.IRcTilesCollectionLayer"
+    template="templates/base_view.pt"
+    />
+
+  <browser:page
+    name="custom_tile_collection_renderer"
+    permission="zope2.View"
+    for="*"
+    class=".custom_view.BaseView"
+    layer="..interfaces.IRcTilesCollectionLayer"
+    template="templates/custom_view.pt"
+    />
 
 </configure>
