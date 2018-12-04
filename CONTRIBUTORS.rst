@@ -1,4 +1,4 @@
 Contributors
 ============
 
-- RedTurtle Technology, sviluppoplone@redturtle.it
+- Rogerio da Costa, rogeriocdluiz@gmail.com

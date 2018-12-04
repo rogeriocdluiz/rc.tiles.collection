@@ -1,4 +1,4 @@
-collective.tiles.collection Copyright 2016, RedTurtle Technology
+rc.tiles.collection Copyright 2018, Rogerio da Costa
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License version 2

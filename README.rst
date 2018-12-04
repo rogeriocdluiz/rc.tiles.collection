@@ -1,8 +1,9 @@
-==============================================================================
-collective.tiles.collection
-==============================================================================
+===================
+rc.tiles.collection
+===================
 
 A tile that shows collection results with customizable layouts
+forked from collective/collective.tiles.collection
 
 Features
 --------
@@ -13,15 +14,18 @@ Features
 - Customizable layouts list
 
 
+
 Installation
 ------------
 
-Install collective.tiles.collection by adding it to your buildout::
+Install rc.tiles.collection by adding it to your buildout::
 
     [buildout]
+
     ...
+
     eggs =
-        collective.tiles.collection
+        rc.tiles.collection
 
 
 and then running ``bin/buildout``
@@ -62,9 +66,9 @@ This is an example:
 `additional_render.py`::
 
     from Products.Five.browser import BrowserView
-    from collective.tiles.collection.interfaces import ICollectionTileRenderer
+    from rc.tiles.collection.interfaces import ICollectionTileRenderer
     from zope.interface import implements
-    from collective.tiles.collection import _
+    from rc.tiles.collection import _
 
 
     class AdditionalView(BrowserView):
@@ -81,7 +85,7 @@ This is an example:
           xmlns:i18n="http://xml.zope.org/namespaces/i18n"
           lang="en"
           metal:use-macro="here/main_template/macros/master"
-          i18n:domain="collective.tiles.collection">
+          i18n:domain="rc.tiles.collection">
       <body>
         <metal:macro define-macro="collection-tile-macro">
           ...
@@ -104,6 +108,10 @@ Contribute
 - Issue Tracker: https://github.com/collective/collective.tiles.collection/issues
 - Source Code: https://github.com/collective/collective.tiles.collection
 
+- Issue Tracker: https://github.com/rogeriocdluiz/rc.tiles.collection/issues
+- Source Code: https://github.com/rogeriocdluiz/rc.tiles.collection
+
+
 Credits
 -------
 
@@ -124,6 +132,53 @@ This product was developed by RedTurtle Technology team.
 .. image:: http://www.redturtle.it/redturtle_banner.png
    :alt: RedTurtle Technology Site
    :target: http://www.redturtle.it/
+
+forked from collective/collective.tiles.collection by:
+
+* `Rogerio da Costa`__
+
+__ http://www.rogeriodacosta.com.br
+
+
+
+License
+-------
+
+The project is licensed under the GPLv2.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Contribute
+----------
+
+
+
+Support
+-------
+
+If you are having issues, please let us know.
+We have a mailing list located at: project@example.com
+
 
 License
 -------

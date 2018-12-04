@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<registry>
-  <record name="plone.app.tiles">
-    <value purge="false">
-      <element>collective.tiles.collection</element>
-    </value>
-  </record>
-</registry>

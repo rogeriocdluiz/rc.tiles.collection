@@ -1,5 +1,5 @@
-====================
-collective.tiles.collection
-====================
+===================
+rc.tiles.collection
+===================
 
 User documentation
