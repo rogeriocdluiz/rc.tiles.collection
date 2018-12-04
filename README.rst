@@ -45,7 +45,7 @@ Customizable layouts
 When you create/edit a collection tile, there is a field that allows you to select the final layout from a list.
 This list is generated with a specific set of view that satisfy following rules:
 
-- The Class must implement **ICollectiveTilesCollectionLayer** interface
+- The Class must implement **IRcTilesCollectionLayer** interface
 - In the Class there should be an attribute **display_name** with a human-readable title
 - The template need to define a macro called **collection-tile-macro**
 
@@ -66,7 +66,7 @@ This is an example:
 `additional_render.py`::
 
     from Products.Five.browser import BrowserView
-    from rc.tiles.collection.interfaces import ICollectionTileRenderer
+    from rc.tiles.collection.interfaces import IRcTilesCollectionLayer
     from zope.interface import implements
     from rc.tiles.collection import _
 
