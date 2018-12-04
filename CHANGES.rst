@@ -1,7 +1,13 @@
 Changelog
 =========
 
-1.1.3 (2018-11-04)
+1.1.5 (2018-11-04)
+------------------
+- added new renderer to no icon collection
+  [rogeriocdluiz]
+
+
+1.1.4 (2018-11-04)
 ------------------
 - adjusts in interfaces
   [rogeriocdluiz]
