@@ -44,5 +44,14 @@
     template="templates/custom_view2.pt"
     />
 
+  <browser:page
+    name="custom3_tile_collection_renderer"
+    permission="zope2.View"
+    for="*"
+    class=".custom_view3.BaseView"
+    layer="..interfaces.IRcTilesCollectionLayer"
+    template="templates/custom_view3.pt"
+    />    
+
 
 </configure>

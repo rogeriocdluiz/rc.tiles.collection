@@ -18,7 +18,7 @@
                i18n:translate="tiles_collection_noresults">
              No results found
             </p>
-            <div class="tileContent" tal:condition="results">
+            <div class="tileContent tileright" tal:condition="results">
               <tal:results tal:repeat="obj results">
                 <h4 tal:define="oddrow repeat/obj/odd;
                                 useView python:obj.portal_type in viewActions;
@@ -49,7 +49,7 @@
                 </h4>
               </tal:results>
             </div>
-            <div class="showMore" tal:condition="view/data/show_more">
+            <div class="showMore  tileright" tal:condition="view/data/show_more">
               <a href="${collection/absolute_url}"
                  tal:define="show_more_label view/data/show_more_label|nothing">
                 <span tal:condition="not:show_more_label"
@@ -60,8 +60,12 @@
           </div>
         </div>
       </div>
+      <link href="++resource++rc.tiles.collection/tiles.css" rel="stylesheet" type="text/css" />
     </metal:macro>
   </body>
 </html>
 
 
+
+
+<link rel="stylesheet" type="text/css" media="screen" href="++resource++mpf.prdfpack/css/jquery.dataTables.css">
